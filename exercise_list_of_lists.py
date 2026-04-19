@@ -14,7 +14,8 @@ def list_of_lists(lista_de_listas):
         La lista de listas modificada según las reglas
     """
     return [
-        lista[0][:2]
-        lista[1][1:4]
-        lista[2][:-2]
+    lista_de_listas[0][:2],
+    lista_de_listas[1][1:4],
+    lista_de_listas[2][-2:]
     ]
+
